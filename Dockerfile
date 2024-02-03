@@ -7,4 +7,6 @@ WORKDIR /app
 
 RUN npm install
 
+EXPOSE 4040
+
 CMD [ "node", "index.js" ]
